@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Lumina Beauty Design System - Institut de beauté élégant */
+
+@layer base {
+  :root {
+    /* Couleurs de base - tons spa et élégance */
+    --background: 0 0% 100%;
+    --foreground: 210 40% 8%;
+
+    /* Cartes et conteneurs */
+    --card: 0 0% 100%;
+    --card-foreground: 210 40% 8%;
+
+    /* Popovers et menus */
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 40% 8%;
+
+    /* Rose poudré - couleur principale */
+    --primary: 330 60% 75%;
+    --primary-foreground: 210 40% 98%;
+    --primary-glow: 330 50% 85%;
+
+    /* Doré doux - couleur secondaire */
+    --secondary: 45 75% 65%;
+    --secondary-foreground: 210 40% 8%;
+
+    /* Blanc nacré - couleur tertiaire */
+    --tertiary: 0 0% 98%;
+    --tertiary-foreground: 210 40% 8%;
+
+    /* Tons atténués spa */
+    --muted: 330 20% 98%;
+    --muted-foreground: 215 16% 46%;
+    --accent: 330 15% 96%;
+    --accent-foreground: 210 40% 8%;
+
+    /* États et interactions */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 330 25% 91%;
+    --input: 330 25% 91%;
+    --ring: 330 60% 75%;
+
+    /* Rayons doux */
+    --radius: 1rem;
+
+    /* Gradients spa élégants */
+    --gradient-primary: linear-gradient(135deg, hsl(330 60% 75%), hsl(330 50% 85%));
+    --gradient-secondary: linear-gradient(135deg, hsl(45 75% 65%), hsl(45 65% 75%));
+    --gradient-accent: linear-gradient(135deg, hsl(330 15% 97%), hsl(45 20% 98%));
+    --gradient-hero: linear-gradient(135deg, hsl(330 10% 98%), hsl(45 15% 99%));
+    
+    /* Ombres spa raffinées */
+    --shadow-soft: 0 4px 15px -3px hsl(330 25% 70% / 0.12);
+    --shadow-medium: 0 10px 30px -5px hsl(330 30% 60% / 0.18);
+    --shadow-strong: 0 20px 40px -8px hsl(330 35% 50% / 0.25);
+    
+    /* Transitions fluides spa */
+    --transition-smooth: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    
+    /* Animations wow effect */
+    --animate-float: float 3s ease-in-out infinite;
+    --animate-glow: glow 2s ease-in-out infinite alternate;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 210 40% 8%;
+    --sidebar-primary: 330 60% 75%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 330 15% 96%;
+    --sidebar-accent-foreground: 210 40% 8%;
+    --sidebar-border: 330 25% 91%;
+    --sidebar-ring: 330 60% 75%;
+  }
+
+  .dark {
+    --background: 210 40% 8%;
+    --foreground: 210 40% 98%;
+    --card: 210 40% 10%;
+    --card-foreground: 210 40% 98%;
+    --popover: 210 40% 10%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 330 60% 75%;
+    --primary-foreground: 210 40% 8%;
+    --secondary: 45 75% 65%;
+    --secondary-foreground: 210 40% 8%;
+    --muted: 215 32% 16%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 215 32% 18%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 215 32% 18%;
+    --input: 215 32% 18%;
+    --ring: 330 60% 75%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
