@@ -16,7 +16,7 @@ const FAQSection = () => {
     },
     {
       question: "Comment prendre rendez-vous ?",
-      answer: "Vous pouvez prendre rendez-vous en nous contactant directement via WhatsApp au 0704906086, par téléphone au +225 07 07 73 21 60, ou en nous envoyant un message via notre site web."
+      answer: "Vous pouvez prendre rendez-vous en nous contactant directement via WhatsApp au 0707732160, par téléphone au +225 07 07 73 21 60, ou en nous envoyant un message via notre site web."
     },
     {
       question: "Quels sont vos horaires d'ouverture ?",
@@ -92,7 +92,7 @@ const FAQSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/2250704906086?text=Bonjour,%20je%20vous%20contacte%20depuis%20le%20site%20Lumina%20Beauty%20pour%20une%20question."
+                href="https://wa.me/2250707732160?text=Bonjour,%20je%20vous%20contacte%20depuis%20le%20site%20Lumina%20Beauty%20pour%20une%20question."
                 className="bg-white text-primary px-6 py-3 rounded-lg font-semibold hover:bg-white/90 transition-colors inline-flex items-center justify-center"
               >
                 <MessageCircle className="h-5 w-5 mr-2" />

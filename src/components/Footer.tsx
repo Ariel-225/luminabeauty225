@@ -24,7 +24,7 @@ const Footer = () => {
           size="lg"
           className="bg-green-500 hover:bg-green-600 rounded-full w-14 h-14 p-0 shadow-strong"
           aria-label="Contacter sur WhatsApp"
-          onClick={() => window.open('https://wa.me/2250704906086?text=Bonjour%2C%20je%20viens%20du%20site%20web%20de%20Lumina%20Beauty%20et%20je%20souhaite%20prendre%20rendez-vous.', '_blank')}
+          onClick={() => window.open('https://wa.me/2250707732160?text=Bonjour%2C%20je%20viens%20du%20site%20web%20de%20Lumina%20Beauty%20et%20je%20souhaite%20prendre%20rendez-vous.', '_blank')}
         >
           <MessageCircle className="h-6 w-6" />
         </Button>
@@ -94,7 +94,7 @@ const Footer = () => {
                 <div>
                   <p className="text-sm font-medium text-foreground">WhatsApp</p>
                   <a 
-                    href="https://wa.me/2250704906086?text=Bonjour%2C%20je%20viens%20du%20site%20web%20de%20Lumina%20Beauty%20et%20je%20souhaite%20prendre%20rendez-vous." 
+                    href="https://wa.me/2250707732160?text=Bonjour%2C%20je%20viens%20du%20site%20web%20de%20Lumina%20Beauty%20et%20je%20souhaite%20prendre%20rendez-vous." 
                     className="text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     Message direct
